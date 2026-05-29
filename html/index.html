@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<!-- Construir la imagen -->
+<!-- docker build -t mi-web-html . -->
+
+<!-- Levantar el contenedor -->
+<!-- docker run -d -p 8080:80 --name web-nginx mi-web-html -->
+<!-- docker run -p 8080:80 mi-web-html -->
+<!-- docker run -p 8081:80 mi-web-html -->
+
+<!-- Para verlo vamos al navegador -->
+<!-- http://localhost:8081 -->
+
+<!-- Para actualizar cambios hay que reconstruir la imagen -->
+<!-- docker build -t mi-web-html . --> 
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mi primer Docker</title>
+</head>
+<body>
+  <h1>Hola Docker 🚀</h1>
+  <p>Servidor HTML funcionando.</p>
+</body>
+</html>

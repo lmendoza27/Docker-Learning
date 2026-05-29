@@ -1,0 +1,10 @@
+services:
+  php:
+    build: .
+    container_name: php-sqlserver
+    ports:
+      - "8081:80"
+    volumes:
+      - ./:/var/www/html
+    working_dir: /var/www/html
+    restart: unless-stopped
