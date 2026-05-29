@@ -1,0 +1,10 @@
+services:
+
+  nginx:
+    restart: always
+
+  php:
+    restart: always
+
+    environment:
+      APP_ENV: production

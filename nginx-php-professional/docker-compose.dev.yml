@@ -1,0 +1,8 @@
+services:
+
+  php:
+    environment:
+      APP_ENV: development
+
+    volumes:
+      - ./app:/var/www/html
